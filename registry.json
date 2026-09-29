@@ -2,6 +2,24 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "zcode",
+      "name": "ZCode",
+      "description": "Connects BigModel Coding Plan to CPA with ZCode client fingerprint headers, dynamic model discovery, model mapping, and Anthropic-format streaming.",
+      "author": "rensumo",
+      "version": "0.1.0",
+      "repository": "https://github.com/rensumo/cpa-plugin-zcode",
+      "homepage": "https://github.com/rensumo/cpa-plugin-zcode",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "BigModel",
+        "ZCode",
+        "Anthropic",
+        "Streaming"
+      ]
+    },
+    {
       "id": "cpa-groq",
       "name": "Groq Whisper (cpa-groq)",
       "description": "Adds Groq Whisper speech-to-text (whisper-large-v3 and -turbo) as executor models: send audio as Gemini generateContent inline_data, get the transcript back.",
