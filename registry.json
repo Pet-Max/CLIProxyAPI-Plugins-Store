@@ -1363,7 +1363,7 @@
       "name": "Cline 渠道监控",
       "description": "在管理中心展示 Cline 套餐、限额与官方用量（含订阅周期与按模型明细）。不注册任何请求钩子，因此不在请求路径上。 / Shows the Cline plan, rolling limits and official usage (per-model breakdown, billing period) in the Management Center, and declares no request hook, so it stays off the request path.",
       "author": "wkeking",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "repository": "https://github.com/wkeking/clinepass-channel-monitor",
       "homepage": "https://github.com/wkeking/clinepass-channel-monitor",
       "license": "MIT",
@@ -1549,6 +1549,35 @@
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "tags": ["Provider", "Copilot", "OpenAI", "Management"]
+      "id": "cliproxy-costs",
+      "name": "CLIProxy Costs",
+      "description": "Prices every request from a public rate-card feed, records usage and subscription quota in a local SQLite ledger, and adds a dashboard with spend, cache savings, quota burn-rate forecasts, failures and per-credential, per-client and per-model breakdowns. Data is served only on management routes (CPA management key).",
+      "author": "MelonSmasher",
+      "version": "0.1.0",
+      "repository": "https://github.com/MelonSmasher/cliproxy-costs",
+      "homepage": "https://github.com/MelonSmasher/cliproxy-costs",
+      "license": "MIT",
+      "tags": [
+        "Usage",
+        "Quota",
+        "Dashboard",
+        "Statistics",
+        "Interceptor"
+      ]
+    },
+    {
+      "id": "claude-keep-rolling",
+      "name": "Claude Keep Rolling",
+      "description": "Keeps Claude five-hour usage windows rolling by pinging each selected Claude account right after its window resets.",
+      "author": "265866",
+      "repository": "https://github.com/265866/claude-keep-rolling",
+      "homepage": "https://github.com/265866/claude-keep-rolling",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Scheduler",
+        "Claude"
+      ]
     }
   ]
 }
