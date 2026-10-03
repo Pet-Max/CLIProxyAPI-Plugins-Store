@@ -1531,24 +1531,6 @@
       ]
     },
     {
-      "id": "openai-oauth",
-      "name": "OpenAI OAuth Provider",
-      "description": "A native Go plugin that connects CLIProxyAPI to an OAuth protected, OpenAI compatible API.",
-      "author": "syepes",
-      "version": "0.1.0",
-      "repository": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
-      "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
-      "tags": ["Provider", "OAuth", "OpenAI", "Management"]
-    },
-    {
-      "id": "github-copilot",
-      "name": "GitHub Copilot Provider",
-      "description": "A native Go plugin that connects CLIProxyAPI to GitHub Copilot.",
-      "author": "syepes",
-      "version": "0.1.0",
-      "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
-      "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
-      "tags": ["Provider", "Copilot", "OpenAI", "Management"]
       "id": "cliproxy-costs",
       "name": "CLIProxy Costs",
       "description": "Prices every request from a public rate-card feed, records usage and subscription quota in a local SQLite ledger, and adds a dashboard with spend, cache savings, quota burn-rate forecasts, failures and per-credential, per-client and per-model breakdowns. Data is served only on management routes (CPA management key).",
@@ -1578,7 +1560,26 @@
         "Scheduler",
         "Claude"
       ]
+    },
+    {
+      "id": "openai-oauth",
+      "name": "OpenAI OAuth Provider",
+      "description": "A native Go plugin that connects CLIProxyAPI to an OAuth protected, OpenAI compatible API.",
+      "author": "syepes",
+      "version": "0.1.0",
+      "repository": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
+      "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-openai-oauth",
+      "tags": ["Provider", "OAuth", "OpenAI", "Management"]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot Provider",
+      "description": "A native Go plugin that connects CLIProxyAPI to GitHub Copilot.",
+      "author": "syepes",
+      "version": "0.1.0",
+      "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
+      "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
+      "tags": ["Provider", "Copilot", "OpenAI", "Management"]
     }
   ]
 }
-
