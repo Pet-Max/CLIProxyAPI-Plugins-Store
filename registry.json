@@ -1593,8 +1593,8 @@
     },
     {
       "id": "vertex-adc",
-      "name": "Google Vextex Provider",
-      "description": "A native Go plugin that connects CLIProxyAPI to Google Vextex IA.",
+      "name": "Google Vextex ADC Provider",
+      "description": "A native Go plugin that connects CLIProxyAPI to Google Vextex AI using ADC (Application Default Credentials).",
       "author": "syepes",
       "version": "0.1.0",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
