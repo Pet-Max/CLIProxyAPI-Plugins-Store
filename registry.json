@@ -1363,7 +1363,7 @@
       "name": "Cline 渠道监控",
       "description": "在管理中心展示 Cline 套餐、限额与官方用量（含订阅周期与按模型明细）。不注册任何请求钩子，因此不在请求路径上。 / Shows the Cline plan, rolling limits and official usage (per-model breakdown, billing period) in the Management Center, and declares no request hook, so it stays off the request path.",
       "author": "wkeking",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "repository": "https://github.com/wkeking/clinepass-channel-monitor",
       "homepage": "https://github.com/wkeking/clinepass-channel-monitor",
       "license": "MIT",
