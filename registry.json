@@ -1590,6 +1590,16 @@
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "tags": ["Provider", "Copilot", "OpenAI", "Management"]
+    },
+    {
+      "id": "vertex-adc",
+      "name": "Google Vextex ADC Provider",
+      "description": "A native Go plugin that connects CLIProxyAPI to Google Vextex AI using ADC (Application Default Credentials).",
+      "author": "syepes",
+      "version": "0.1.0",
+      "repository": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
+      "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
+      "tags": ["Provider", "Google", "Vextex", "Management"]
     }
   ]
 }
