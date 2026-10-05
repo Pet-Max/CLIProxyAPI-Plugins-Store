@@ -2,6 +2,17 @@
   "schema_version": 1,
   "plugins": [
     {
+      "id": "lamplighter",
+      "name": "Lamplighter",
+      "description": "监控 ChatGPT（Codex）、Claude 和 Antigravity 的额度，通过 Bark 推送提醒并提供额度图表，在每次 5 小时窗口重置后立即开始下一个窗口。 / Monitors ChatGPT (Codex), Claude and Antigravity quota with Bark alerts and a quota chart, and starts the next 5-hour window right after each reset.",
+      "author": "PosvdM",
+      "repository": "https://github.com/PosvdM/cpa-plugin-lamplighter",
+      "logo": "https://raw.githubusercontent.com/PosvdM/cpa-plugin-lamplighter/main/assets/logo.png",
+      "homepage": "https://github.com/PosvdM/cpa-plugin-lamplighter",
+      "license": "AGPL-3.0-or-later",
+      "tags": ["Management", "Quota", "Notification", "Codex", "Claude", "Antigravity"]
+    },
+    {
       "id": "zcode",
       "name": "ZCode",
       "description": "Connects BigModel Coding Plan to CPA with ZCode client fingerprint headers, dynamic model discovery, model mapping, and Anthropic-format streaming.",
@@ -1601,17 +1612,6 @@
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
       "tags": ["Provider", "Google", "Vextex", "Management"]
-    },
-    {
-      "id": "lamplighter",
-      "name": "Lamplighter",
-      "description": "Monitors ChatGPT (Codex), Claude and Antigravity quota with Bark alerts and a quota chart, and starts the next 5-hour window right after each reset.",
-      "author": "PosvdM",
-      "repository": "https://github.com/PosvdM/cpa-plugin-lamplighter",
-      "logo": "https://raw.githubusercontent.com/PosvdM/cpa-plugin-lamplighter/main/assets/logo.png",
-      "homepage": "https://github.com/PosvdM/cpa-plugin-lamplighter",
-      "license": "AGPL-3.0-or-later",
-      "tags": ["Management", "Quota", "Notification", "Codex", "Claude", "Antigravity"]
     }
   ]
 }
