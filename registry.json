@@ -1587,7 +1587,7 @@
       "name": "GitHub Copilot Provider",
       "description": "A native Go plugin that connects CLIProxyAPI to GitHub Copilot.",
       "author": "syepes",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-github-copilot",
       "tags": ["Provider", "Copilot", "OpenAI", "Management"]
