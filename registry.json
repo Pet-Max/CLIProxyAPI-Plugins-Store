@@ -1612,6 +1612,21 @@
       "repository": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
       "homepage": "https://github.com/syepes/CLIProxyAPI-plugin-vertex-adc",
       "tags": ["Provider", "Google", "Vextex", "Management"]
+    },
+    {
+      "id": "cpa-window-starter",
+      "name": "CPA Window Starter · 账号定时请求",
+      "description": "Sends scheduled, account-pinned requests for Codex and Gemini / Antigravity, with independent daily plans, IANA time zones, model selection, account groups, and a Chinese/English UI that follows CPA.",
+      "author": "zengeeklabs",
+      "repository": "https://github.com/ZenGeekLabs/cpa-window-starter",
+      "homepage": "https://github.com/ZenGeekLabs/cpa-window-starter",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Management",
+        "Codex",
+        "Antigravity"
+      ]
     }
   ]
 }
