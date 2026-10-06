@@ -1639,6 +1639,16 @@
       "logo": "https://raw.githubusercontent.com/Pet-Max/cpa-plugin-tokens-statistic/main/images/logo.svg",
       "license": "MIT",
       "tags": ["Management", "Usage", "Statistics", "Dashboard"]
+    },
+    {
+      "id": "kiro-ha",
+      "name": "Kiro (multi-method sign-in)",
+      "description": "独立的 Kiro 提供商插件：支持 AWS Builder ID、IAM Identity Center、API key、refresh token 与 external_idp 登录，凭证保存为 CPA 认证文件；支持多账户、流式输出与工具调用，提供 Kiro 额度页面与 CPA 额度接口。 / Standalone Kiro provider: AWS Builder ID, IAM Identity Center, API key, refresh-token and external_idp sign-in stored as CPA authentication files; multiple accounts, streaming and tools, with a Kiro usage page and CPA quota support.",
+      "author": "nguyenha935",
+      "repository": "https://github.com/nguyenha935/kiro-cpa-plugin",
+      "homepage": "https://github.com/nguyenha935/kiro-cpa-plugin",
+      "license": "MIT",
+      "tags": ["Provider", "Kiro", "OAuth", "Quota"]
     }
   ]
 }
